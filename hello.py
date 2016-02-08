@@ -1269,7 +1269,7 @@ def results():
         listofcurves.append(Asurv)
 
 
-        for i in range(800):
+        for i in range(10000):
             import random 
             numberofsubjects = get_month_from_cdf(datacountscdf) + 1
             samp1 = get_one_group(basecdf, numberofsubjects)
